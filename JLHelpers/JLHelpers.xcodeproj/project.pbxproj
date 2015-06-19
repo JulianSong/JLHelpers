@@ -20,6 +20,8 @@
 		B922ADC81B33CCDC00531E5C /* NSString+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = B922ADC01B33CCDC00531E5C /* NSString+Digest.m */; };
 		B922ADCC1B33CDE800531E5C /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = B922ADCA1B33CDE800531E5C /* UIColor+Hex.h */; };
 		B922ADCD1B33CDE800531E5C /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = B922ADCB1B33CDE800531E5C /* UIColor+Hex.m */; };
+		B922ADD11B33FE6A00531E5C /* UIView+TapEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B922ADCF1B33FE6A00531E5C /* UIView+TapEvent.h */; };
+		B922ADD21B33FE6A00531E5C /* UIView+TapEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B922ADD01B33FE6A00531E5C /* UIView+TapEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B922ADC01B33CCDC00531E5C /* NSString+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Digest.m"; sourceTree = "<group>"; };
 		B922ADCA1B33CDE800531E5C /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		B922ADCB1B33CDE800531E5C /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		B922ADCF1B33FE6A00531E5C /* UIView+TapEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TapEvent.h"; sourceTree = "<group>"; };
+		B922ADD01B33FE6A00531E5C /* UIView+TapEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TapEvent.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 		B922ADC91B33CCE000531E5C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B922ADCF1B33FE6A00531E5C /* UIView+TapEvent.h */,
+				B922ADD01B33FE6A00531E5C /* UIView+TapEvent.m */,
 				B922ADCA1B33CDE800531E5C /* UIColor+Hex.h */,
 				B922ADCB1B33CDE800531E5C /* UIColor+Hex.m */,
 				B922ADB91B33CCDC00531E5C /* NSString+Reading.h */,
@@ -148,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B922ADC71B33CCDC00531E5C /* NSString+Digest.h in Headers */,
+				B922ADD11B33FE6A00531E5C /* UIView+TapEvent.h in Headers */,
 				B922ADC61B33CCDC00531E5C /* UIAlertView+Block.h in Headers */,
 				B922ADA31B33CCB500531E5C /* JLHelpers.h in Headers */,
 				B922ADC41B33CCDC00531E5C /* UIImage+ColorMake.h in Headers */,
@@ -253,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B922ADC51B33CCDC00531E5C /* UIAlertView+Block.m in Sources */,
+				B922ADD21B33FE6A00531E5C /* UIView+TapEvent.m in Sources */,
 				B922ADCD1B33CDE800531E5C /* UIColor+Hex.m in Sources */,
 				B922ADC21B33CCDC00531E5C /* NSString+Reading.m in Sources */,
 				B922ADC31B33CCDC00531E5C /* UIImage+ColorMake.m in Sources */,
@@ -442,6 +450,7 @@
 				B922ADB51B33CCB500531E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B922ADB61B33CCB500531E5C /* Build configuration list for PBXNativeTarget "JLHelpersTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +459,7 @@
 				B922ADB81B33CCB500531E5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

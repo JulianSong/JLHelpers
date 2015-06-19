@@ -15,8 +15,17 @@ FOUNDATION_EXPORT double JLHelpersVersionNumber;
 FOUNDATION_EXPORT const unsigned char JLHelpersVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <JLHelpers/PublicHeader.h>
-#import <JLHelpers/UIColor+Hex.h>
 #import <JLHelpers/NSString+Reading.h>
-#import <JLHelpers/UIImage+ColorMake.h>
-#import <JLHelpers/UIAlertView+Block.h>
 #import <JLHelpers/NSString+Digest.h>
+
+
+#import <JLHelpers/UIColor+Hex.h>
+#import <JLHelpers/UIImage+ColorMake.h>
+
+#import <JLHelpers/UIView+TapEvent.h>
+#import <JLHelpers/UIAlertView+Block.h>
+
+
+
+
+
