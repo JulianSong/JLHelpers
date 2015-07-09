@@ -22,6 +22,8 @@
 		B922ADCD1B33CDE800531E5C /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = B922ADCB1B33CDE800531E5C /* UIColor+Hex.m */; };
 		B922ADD11B33FE6A00531E5C /* UIView+TapEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B922ADCF1B33FE6A00531E5C /* UIView+TapEvent.h */; };
 		B922ADD21B33FE6A00531E5C /* UIView+TapEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B922ADD01B33FE6A00531E5C /* UIView+TapEvent.m */; };
+		B93801D61B4E6BA2007A973A /* UIColor+RandomColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B93801D41B4E6BA2007A973A /* UIColor+RandomColor.h */; };
+		B93801D71B4E6BA2007A973A /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B93801D51B4E6BA2007A973A /* UIColor+RandomColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		B922ADCB1B33CDE800531E5C /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		B922ADCF1B33FE6A00531E5C /* UIView+TapEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TapEvent.h"; sourceTree = "<group>"; };
 		B922ADD01B33FE6A00531E5C /* UIView+TapEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TapEvent.m"; sourceTree = "<group>"; };
+		B93801D41B4E6BA2007A973A /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		B93801D51B4E6BA2007A973A /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 				B922ADBD1B33CCDC00531E5C /* UIAlertView+Block.m */,
 				B922ADBF1B33CCDC00531E5C /* NSString+Digest.h */,
 				B922ADC01B33CCDC00531E5C /* NSString+Digest.m */,
+				B93801D41B4E6BA2007A973A /* UIColor+RandomColor.h */,
+				B93801D51B4E6BA2007A973A /* UIColor+RandomColor.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -156,6 +162,7 @@
 				B922ADC71B33CCDC00531E5C /* NSString+Digest.h in Headers */,
 				B922ADD11B33FE6A00531E5C /* UIView+TapEvent.h in Headers */,
 				B922ADC61B33CCDC00531E5C /* UIAlertView+Block.h in Headers */,
+				B93801D61B4E6BA2007A973A /* UIColor+RandomColor.h in Headers */,
 				B922ADA31B33CCB500531E5C /* JLHelpers.h in Headers */,
 				B922ADC41B33CCDC00531E5C /* UIImage+ColorMake.h in Headers */,
 				B922ADCC1B33CDE800531E5C /* UIColor+Hex.h in Headers */,
@@ -263,6 +270,7 @@
 				B922ADD21B33FE6A00531E5C /* UIView+TapEvent.m in Sources */,
 				B922ADCD1B33CDE800531E5C /* UIColor+Hex.m in Sources */,
 				B922ADC21B33CCDC00531E5C /* NSString+Reading.m in Sources */,
+				B93801D71B4E6BA2007A973A /* UIColor+RandomColor.m in Sources */,
 				B922ADC31B33CCDC00531E5C /* UIImage+ColorMake.m in Sources */,
 				B922ADC81B33CCDC00531E5C /* NSString+Digest.m in Sources */,
 			);

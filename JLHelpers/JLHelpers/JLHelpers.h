@@ -24,6 +24,7 @@ FOUNDATION_EXPORT const unsigned char JLHelpersVersionString[];
 
 #import <JLHelpers/UIView+TapEvent.h>
 #import <JLHelpers/UIAlertView+Block.h>
+#import <JLHelpers/UIColor+RandomColor.h>
 
 
 
